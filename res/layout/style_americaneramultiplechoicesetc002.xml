@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/style_spanisheramultiplechooice002"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="pro.gr.ams.historicalfactboy.americaneramultiplechoicesetc002"
+    android:background="@raw/score_backgroun001">
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="285dp"
+        app:srcCompat="@raw/scorebox"
+        android:id="@+id/scorebox"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:text="Highest Score:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:background="@android:color/transparent"
+        android:id="@+id/textHighScore"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/scorebox"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="92dp" />
+
+    <TextView
+        android:text="Get atleast 16 correct answers to move to the next level."
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp"
+        />
+
+    <TextView
+        android:text="You're ready for next level, Click next to continue."
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="108dp"
+        android:id="@+id/tryagain"
+        android:onClick="tryagain001"
+        android:background="@raw/tryagain_button001"
+        android:layout_gravity="center"
+        android:layout_below="@+id/scorebox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:text="American Era"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_above="@+id/textScore"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="You Got 0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textScore"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/textHighScore"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-5dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/nextlevel"
+        android:onClick="nextlevel001"
+        android:background="@raw/nextlevel_button001"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/tryagain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-50dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/addscoretansparentbutton"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

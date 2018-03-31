@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:weightSum="1"
+    android:background="@raw/trivia_background001">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        app:srcCompat="@raw/trivia_icon001"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:text="Alam mo ba na taliwas sa\nkaalaman ng karamihan, ang tatlong\nbituin sa watawat ng Pilipinas ay\nsumisimbolo sa Luzon,\nPanay, at Mindanao."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView8"
+        android:textAlignment="center"
+        android:gravity="top"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.94"
+        android:textSize="14sp" />
+</LinearLayout>

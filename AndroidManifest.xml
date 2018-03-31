@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pro.gr.ams.historicalfactboy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@raw/icon001"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loading001">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".identificationqa001" />
+        <activity android:name=".identificationqa002" />
+        <activity android:name=".identification001" />
+        <activity android:name=".identification002" />
+        <activity android:name=".create_user001" />
+        <activity android:name=".create_user_002" />
+        <activity android:name=".create_user002" />
+        <activity
+            android:name=".menu001"
+            android:screenOrientation="portrait" />
+        <activity android:name=".multiplechoice001" />
+        <activity android:name=".multiplechoice002" />
+        <activity android:name=".prespanisheramultiplechoice001" />
+        <activity android:name=".prespanisheramultiplechoice002" />
+        <activity android:name=".spansiheraidentification001" />
+        <activity android:name=".spanisheraidentification002" />
+        <activity android:name=".spanisheraidentification001" />
+        <activity android:name=".spanisheraidentification003" />
+        <activity android:name=".spanisheraidentification004" />
+        <activity
+            android:name=".loading002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loading003"
+            android:screenOrientation="portrait" />
+        <activity android:name=".trivia001" />
+        <activity
+            android:name=".quotes001"
+            android:screenOrientation="portrait" />
+        <activity android:name=".loading004" />
+        <activity
+            android:name=".loadquotes001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotes002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotes003"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotes004"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotes005"
+            android:screenOrientation="portrait" />
+        <activity android:name=".spanisheramultiplechoice001" />
+        <activity android:name=".spanisheramultiplechoice002" />
+        <activity
+            android:name=".temporaryredirect001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoiceseta001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoiceseta002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicerandom001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicerandom001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoiceseta001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoiceseta002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scorelogs001"
+            android:screenOrientation="portrait" />
+        <activity android:name=".scorelogs002" />
+        <activity
+            android:name=".about001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".developersoption001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alieninvasion001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesetb001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesetb002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesetc001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesetc002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesetd001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesetd002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesete001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prespanisheramultiplechoicesete002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoicerandom001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoiceseta001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoiceseta002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicesetb001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicesetb002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicesetc001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicesetc002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicesetd001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spanisheramultiplechoicesetd002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".japaneseeramultiplechoicerandom001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".japaneseeramultiplechoiceseta001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".japaneseeramultiplechoiceseta002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bereadyforthefinalround001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoicesetb001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoicesetb002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".japaneseeramultiplechoicesetb001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".japaneseeramultiplechoicesetb002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoicesetc001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".americaneramultiplechoicesetc002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".entirehistorymultiplechoiceseta001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".entirehistorymultiplechoiceseta002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".entirehistorymultiplechoicerandom001"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ampugenungdeveloper" />
+        <activity
+            android:name=".ampugenungdeveloper001"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ampugenungdeveloper002"
+            android:screenOrientation="portrait" ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/style_menu001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="pro.gr.ams.historicalfactboy.menu001"
+    android:background="@raw/loading_background001"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:srcCompat="@raw/loading_background002"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentTop="true"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="255dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="start game"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/redirecttoprespanisheramultiplechoicerandom001"
+            android:background="@raw/menu_button001"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="score logs"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/redirecttoscorelogs001"
+            android:background="@raw/menu_button001"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="About"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/redirecttoabout001"
+            android:background="@raw/menu_button001"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="EXIT"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:onClick="buttonOnClick"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/exit001"
+            android:background="@raw/menu_button001"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/redirecttodevelopersoption001"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/oneclickawaytodevelopersoption001"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:onClick="hideoneclickawaytodevelopersoptionmethod001"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/twoclickawaytodevelopersoption001"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:onClick="hidetwoclickawaytodevelopersoptionmethod001"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/threeclickawaytodevelopersoption001"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:onClick="hidethreeclickawaytodevelopersoptionmethod001"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/fourclickawaytodevelopersoption001"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:onClick="hidefourclickawaytodevelopersoptionmethod001"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/fiveclickawaytodevelopersoption001"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:onClick="hidefiveclickawaytodevelopersoptionmethod001"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
